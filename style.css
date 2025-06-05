@@ -13,11 +13,10 @@ header{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #b6b1b1;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
-
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 
 }
 
@@ -41,10 +40,10 @@ header{
 }
 
 .nav_bar a{
-    font-size: 14;
+    font-size: 12;
     letter-spacing: .3px;
     color: #282c3f;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
     padding: 28px 0;
@@ -103,10 +102,21 @@ header{
     align-items: center;
 }
 
+.action_container a{
+    text-decoration: none;
+    color: #70727a;
+    font-weight: 600;
+}
+
+
 /* main */
 
+main{
+    padding: 0 5vw;
+}
+
 .banner_container {
-    margin: 100px 0 10px 0;
+    margin: 20px 0 10px 0;
 }
 
 .banner_img {
@@ -116,9 +126,10 @@ header{
 .category_heading {
     text-transform: uppercase;
     color: #3e4152;
+    text-align: center;
     letter-spacing: .15em;
-    font-size: 1.8em;
-    margin: 50px 0 20px 30px;
+    font-size: 2.8em;
+    margin: 30px;
     max-height: 5em;
     font-weight: 700;
 }
@@ -132,6 +143,8 @@ header{
 .sale_item {
     width: 250px;
 }
+
+/* footer */
 
 .footer_container {
     padding: 30px 0px 40px 0px;
@@ -160,6 +173,6 @@ header{
 
 .copyright {
     color: #94969f;
-    text-align: end;
+    text-align: center;
     padding: 15px;
 }
