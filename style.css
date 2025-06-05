@@ -57,7 +57,7 @@ header{
 .nav_bar a sup{
     font-size: 10px;
     color: #ff3f6c;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .search_bar{
@@ -93,7 +93,7 @@ header{
     display: flex;
     min-width: 200px;
     justify-content: space-evenly;
-
+    margin-right: 50px;
 }
 
 .action_container {
